@@ -3,12 +3,23 @@
 
 // conversão implícita - converte um tipo de dado em outro
 const numero = 456;
-const numeroString = Number("456a");
+
+// const numeroString = ("456"); 
 
 console.log(numero === numeroString) //false
 console.log(numero == numeroString) //true
 
-console.log(numero + numeroString)
+
+// Concatenação
+console.log(numero + numeroString) // ele junta os números, mas não soma
 
 
-// conversão explícita - Função Number() e String()
+// conversão explícita - Transformar de forma forçada.
+// Função Number() e String()
+
+const numeroString = Number("456");
+console.log(numero + numeroString); // agora soma os números
+
+
+// NaN - Not a Number
+// const numeroString = Number("456a")
