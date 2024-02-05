@@ -17,4 +17,6 @@
 const texto1  = "Alura";
 const texto2 = "alura";
 
-console.log(texto1 == texto2)
+const lowerCase = texto1.toLowerCase();
+
+console.log(lowerCase == texto2)
