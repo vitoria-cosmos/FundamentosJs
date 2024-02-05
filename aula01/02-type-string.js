@@ -9,7 +9,10 @@ const meuNome = "Leonardo"
 // console.log(citacao)
 
 // concatenação {+}
+
 console.log(citacao + meuNome)
+
+
 // template string ou template literal 
 
 const cifrao = '\u0024'
